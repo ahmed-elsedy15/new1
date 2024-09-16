@@ -1,0 +1,254 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Lobster Two", sans-serif;
+  padding-top: 70px;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: white;
+  box-shadow: 0 0 10px black;
+}
+.navbar-brand {
+    font-size:2rem ;
+    color: rgb(64, 121, 123);
+    font-family: "Lora", serif;
+    
+}
+.navbar-brand:hover{
+  color: rgb(64, 121, 123);
+}
+.navbar-nav {
+    margin: 0;
+    padding: 0;
+  }
+  .nav-link {
+    color: black; 
+    margin-right: 10px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-family: "Lora", serif;
+    transition: 0.5s ease;
+  }
+  .nav-link:hover{
+    color: rgb(64, 121, 123);
+    
+  }
+  .nav-item{
+    margin:0 0.8rem;
+    
+  }
+  .navbar-collapse{
+    text-align: center;
+  }
+ .d-flex{
+  margin: 0.5rem;
+ }
+  .search{
+    height: 40px;
+    width: 80%;
+    border-radius: 50px;
+    outline: none;
+    margin-right: -35;
+    border: 2px solid cadetblue;
+  }
+  .btn0{
+    height: 40px;
+    width: 40%;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background-color:cadetblue;
+    color: white;
+    font-weight: 700;
+    transition: 0.5s ease;
+  }
+  .btn0:hover{
+    background-color:  rgb(64, 121, 123);
+  }
+
+
+.text{
+  color: cadetblue;
+  font-family: "Lora", serif;
+}
+.btn1{
+  padding: 10px 15px;
+  background-color: cadetblue;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+
+}
+.btn1:hover{
+  background-color:rgb(64, 121, 123) ;
+}
+
+
+
+
+.about {
+  overflow-x: hidden;
+  width: 100%;
+  padding: 40px 0;
+}
+.about a{
+text-decoration: none;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  color: cadetblue;
+  margin-top: 70px;
+}
+
+
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  gap: 1rem;
+  width: 250px;
+  height: 200px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0 0 30px rgba(173, 181, 189, 0.4);
+  transition:  0.5s ease;
+}
+
+.box svg {
+  font-size:  40px;
+  color: #495057;
+}
+
+.box p {
+  font-size: 20px;
+  font-weight: 600;
+  color: #495057;
+}
+
+.box:hover {
+  background-color:rgb(64, 121, 123) ;
+  box-shadow: 0 10px 30px black;
+  transform: scale(1.05);
+}
+
+.box:hover .svg-inline--fa {
+  color: white;
+}
+
+.box:hover p {
+  color: white;
+}
+ 
+
+
+
+.menu {
+  background-color: #f8f9fa; 
+}
+.textm h1{
+  color: cadetblue;
+  font-family: "Lora", serif;
+}
+.textm p{
+  font-size: 2rem;
+  font-weight: 600;
+  color: darkslategray;
+  font-family: mv boli;
+}
+.card{
+  height: 450px;
+ 
+}
+.card-img-top{
+  height: 270px;
+  padding: 10px;
+  border-radius: 15px;
+  transition: 0.5s;
+}
+.card-img-top:hover{
+  transform: scale(1.1);
+}
+.card-title{
+  color: black;
+  font-family: "Lora", serif;
+  font-size: 2rem;
+}
+h5{
+  color: rgb(37, 219, 37);
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+
+.full-height {
+  height: 100vh; 
+}
+.centered-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
+}
+
+
+.footer {
+  background-color: #f8f9fa; 
+  padding: 2rem 0; 
+}
+.footer h4 {
+  font-weight: bold;
+  color: cadetblue;
+}
+.footer p{
+  font-size: 1.3rem;
+}
+.footer p span{
+  color: cadetblue;
+}
+.footer a {
+  color:black; 
+  font-size: 1.3rem;
+
+  text-decoration: none; 
+  transition: 0.5s ease; 
+}
+.footer a:hover{
+  text-decoration: none;
+  color: cadetblue;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  font-size: 1.4rem;
+  color: black; 
+}
+.social-icons a:hover {
+  color: cadetblue; 
+}
+.list-unstyled {
+  padding-left: 0; 
+  list-style: none; 
+}
+.list-unstyled li {
+  margin-bottom: 10px; 
+}
